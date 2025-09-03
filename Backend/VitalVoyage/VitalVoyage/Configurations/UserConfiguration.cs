@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using VitalVoyage.Models;
+using VitalVoyage.Models.Entities;
 
 namespace VitalVoyage.Configurations
 {

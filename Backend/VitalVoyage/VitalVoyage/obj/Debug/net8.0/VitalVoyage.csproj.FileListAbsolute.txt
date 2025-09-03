@@ -163,10 +163,14 @@ C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoya
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\VitalVoy.11219570.Up2Date
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\VitalVoyage.dll
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\refint\VitalVoyage.dll
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\VitalVoyage.pdb
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\VitalVoyage.genruntimeconfig.cache
 C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\ref\VitalVoyage.dll
+C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\HardTilwani\Desktop\Practice\Vital-Voyage\Backend\VitalVoyage\VitalVoyage\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

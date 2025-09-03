@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using VitalVoyage.Models.Entities;
 
 namespace VitalVoyage.DatabaseContext
 {
@@ -8,7 +9,7 @@ namespace VitalVoyage.DatabaseContext
         {
         }
         // Define DbSets for your entities
-        public DbSet<VitalVoyage.Models.User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

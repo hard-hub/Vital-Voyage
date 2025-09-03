@@ -1,4 +1,4 @@
-﻿namespace VitalVoyage.Models
+﻿namespace VitalVoyage.Models.Entities
 {
     public enum Roles
     {

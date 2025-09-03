@@ -22,7 +22,7 @@ namespace VitalVoyage.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("VitalVoyage.Models.User", b =>
+            modelBuilder.Entity("VitalVoyage.Models.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

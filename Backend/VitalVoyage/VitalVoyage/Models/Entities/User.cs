@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
-namespace VitalVoyage.Models
+namespace VitalVoyage.Models.Entities
 {
     [Index(nameof(Email), IsUnique = true)]
     public class User
