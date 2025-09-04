@@ -10,6 +10,9 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 
 // add services
 builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddScoped<IAuthServices, AuthServices>();
+builder.Services.AddScoped<IJwtServices, JwtServices>();
 
 // Add services to the container.
 builder.Services.AddControllers();

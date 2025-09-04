@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\services\\contracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\services\\contracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|c:\\users\\hardtilwani\\desktop\\practice\\vital-voyage\\backend\\vitalvoyage\\vitalvoyage\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240754DA-FF89-4BB8-BF1C-B6875CBB8F4A}|VitalVoyage\\VitalVoyage.csproj|solutionrelative:vitalvoyage\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Program.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Program.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Program.cs",
-              "RelativeToolTip": "VitalVoyage\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "VitalVoyage\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "VitalVoyage\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:06:40.421Z",
+              "WhenOpened": "2025-09-04T10:53:32.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Controllers\\UserController.cs",
-              "RelativeToolTip": "VitalVoyage\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAoAAAAAAAAAA==",
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "VitalVoyage\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\AuthServices.cs",
+              "RelativeToolTip": "VitalVoyage\\Services\\AuthServices.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwGsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:06:36.764Z",
+              "WhenOpened": "2025-09-04T10:53:04.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\EmailServices.cs",
+              "RelativeDocumentMoniker": "VitalVoyage\\Services\\EmailServices.cs",
+              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\EmailServices.cs",
+              "RelativeToolTip": "VitalVoyage\\Services\\EmailServices.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T10:52:34.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "VitalVoyage\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Program.cs",
+              "RelativeDocumentMoniker": "VitalVoyage\\Program.cs",
+              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Program.cs",
+              "RelativeToolTip": "VitalVoyage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:34:21.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Services\\UserServices.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\UserServices.cs",
-              "RelativeToolTip": "VitalVoyage\\Services\\UserServices.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAQwHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:13:44.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Models\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Models\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Models\\ApiResponse.cs",
-              "RelativeToolTip": "VitalVoyage\\Models\\ApiResponse.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwEEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:49:43.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\Contracts\\IUserServices.cs",
-              "RelativeDocumentMoniker": "VitalVoyage\\Services\\Contracts\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\HardTilwani\\Desktop\\Practice\\Vital-Voyage\\Backend\\VitalVoyage\\VitalVoyage\\Services\\Contracts\\IUserServices.cs",
-              "RelativeToolTip": "VitalVoyage\\Services\\Contracts\\IUserServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:18:33.778Z",
+              "WhenOpened": "2025-09-04T10:28:45.603Z",
               "EditorCaption": ""
             }
           ]

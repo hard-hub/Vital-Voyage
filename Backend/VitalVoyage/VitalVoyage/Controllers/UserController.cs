@@ -44,7 +44,7 @@ namespace VitalVoyage.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<ApiResponse<GetUserDTO>>> UpdateUser([FromRoute]Guid id, [FromBody]UpdateUserDTO updateUserDTO)
         {
-            var response = await _userServices.GetUserById(id);
+            var response = await _userServices.UpdateUser(id, updateUserDTO);
             return StatusCode(response.SuccessCode, response);
         }
     }

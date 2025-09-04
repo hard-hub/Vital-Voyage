@@ -12,6 +12,9 @@ namespace VitalVoyage.Models.Entities
         public string PasswordHash { get; set; } = string.Empty;
         public Roles Role { get; set; }
         public bool IsActive { get; set; }
+        public bool IsEmailVerified { get; set; }
+        public string EmailVerificationToken { get; set; }
+        public DateTime EmailVerificationTokenExpires { get; set; }
         public DateTime CreatedOn { get; set; }
         public Guid CreatedBy { get; set; }
         public DateTime UpdatedOn { get; set; }
