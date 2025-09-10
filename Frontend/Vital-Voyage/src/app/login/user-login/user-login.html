@@ -1,0 +1,108 @@
+<div class="min-h-screen bg-base-200 flex items-center justify-center p-4">
+  <div class="login-card flex flex-col lg:flex-row rounded-2xl shadow-2xl overflow-hidden w-full max-w-5xl bg-base-100">
+
+    <!-- Left Side: SVG Background and Quote -->
+    <div class="w-full lg:w-1/2 relative lg:block hero-bg">
+      <div class="absolute inset-0 bg-primary/10 flex flex-col justify-between p-8 text-primary-content">
+        <div>
+          <h1 class="text-3xl font-bold">Vital-Voyage</h1>
+          <p class="text-lg opacity-90">Your journey to a healthier life starts here.</p>
+        </div>
+        <div class="text-right">
+          <p class="text-xl italic">"The greatest wealth is health."</p>
+          <p class="text-sm opacity-90">- Virgil</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: Login Form -->
+    <div class="w-full lg:w-1/2 p-12 lg:p-16 flex flex-col justify-center">
+      <h2 class="text-3xl font-bold text-center mb-2">Welcome Back!</h2>
+      <p class="text-center text-base-content/70 mb-8">Sign in to continue your voyage.</p>
+
+      <form [formGroup]="loginForm" (ngSubmit)="submit()">
+        <!-- Email Input -->
+        <div class="form-control mb-6">
+          <label class="label">
+            <span class="label-text">Email Address</span>
+          </label>
+          <input
+            type="email"
+            placeholder="your.email@example.com"
+            class="input input-bordered w-full"
+            formControlName="email"
+            [class.input-error]="loginForm.get('email')?.invalid && loginForm.get('email')?.touched"
+          />
+          <div *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched" class="label">
+            <span class="label-text-alt text-error">
+              <span *ngIf="loginForm.get('email')?.errors?.['required']">Email is required.</span>
+              <span *ngIf="loginForm.get('email')?.errors?.['email']">Please enter a valid email.</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Password Input -->
+        <div class="form-control mb-6">
+          <label class="label">
+            <span class="label-text">Password</span>
+          </label>
+          <div class="relative">
+            <input
+              [type]="showPassword() ? 'text' : 'password'"
+              placeholder="••••••••"
+              class="input input-bordered w-full"
+              formControlName="password"
+              [class.input-error]="loginForm.get('password')?.invalid && loginForm.get('password')?.touched"
+            />
+            <button type="button" class="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5" (click)="togglePassword()">
+              <!-- Heroicon: eye / eye-slash -->
+              <svg *ngIf="!showPassword()" class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              <svg *ngIf="showPassword()" class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.542-7 1.274-4.057 5.064-7 9.542-7 .947 0 1.868.16 2.734.458m4.418 4.418a10.022 10.022 0 01-8.618 8.618m8.618-8.618L19.5 19.5M4.5 4.5l15 15" />
+              </svg>
+            </button>
+          </div>
+           <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="label">
+            <span class="label-text-alt text-error">
+              <span *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</span>
+              <span *ngIf="loginForm.get('password')?.errors?.['minlength']">Password must be at least 6 characters.</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Remember Me & Forgot Password -->
+        <div class="flex items-center justify-between mb-8">
+          <div class="form-control">
+            <label class="label cursor-pointer gap-2">
+              <input type="checkbox" class="checkbox checkbox-primary" formControlName="rememberMe" />
+              <span class="label-text">Remember me</span>
+            </label>
+          </div>
+          <a href="#" class="link link-primary link-hover text-sm">Forgot password?</a>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-lg btn-primary rounded-full px-20 py-4">Sign In</button>
+        </div>
+      </form>
+
+      <div class="divider my-8">OR</div>
+
+      <!-- Social Login Buttons -->
+      <div class="flex flex-col gap-4">
+          <button class="btn btn-outline w-full transition-all duration-300 hover:scale-105 active:scale-95"><img src="https://www.svgrepo.com/show/355037/google.svg" class="w-5 h-5 mr-2" alt="google logo"/>Continue with Google</button>
+          <button class="btn btn-outline w-full transition-all duration-300 hover:scale-105 active:scale-95"><img src="https://www.svgrepo.com/show/448224/facebook.svg" class="w-5 h-5 mr-2" alt="facebook logo"/>Continue with Facebook</button>
+      </div>
+
+      <!-- Sign Up Link -->
+      <p class="text-center text-sm mt-8">
+        Don't have an account?
+        <a routerLink="/register" class="link link-primary link-hover">Sign up now</a>
+      </p>
+    </div>
+  </div>
+</div>

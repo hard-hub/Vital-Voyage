@@ -38,6 +38,9 @@ namespace VitalVoyage.Services
             user.CreatedBy = user.Id; // or fetch from context
             user.IsActive = true;
             user.Role = Roles.Patient; // default role
+            user.IsEmailVerified = false;
+            user.EmailVerificationToken = null;
+            user.EmailVerificationTokenExpires = null; // set as needed
 
             // Save to database
             _context.Users.Add(user);

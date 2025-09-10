@@ -30,7 +30,7 @@ namespace VitalVoyage.Services
             _logger.LogInformation("Attempting Login for Email: {Email}", loginDTO.Email);
 
             // check if the user exists
-            var user = await _context.Users.FindAsync(loginDTO.Email);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == loginDTO.Email);
             if (user == null)
             {
                 _logger.LogWarning("Login failed. Email not found: {Email}", loginDTO.Email);
@@ -49,6 +49,7 @@ namespace VitalVoyage.Services
             if(!user.IsEmailVerified)
             {
                 _logger.LogWarning("Login blocked for unverified user : {UserId}", user.Id);
+                // TODO: Resend verification email
                 return ApiResponse<string>.FailureResponse(400, "Unverified Email");
             }
 
